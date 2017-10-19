@@ -1,0 +1,205 @@
+psuedo code :
+
+Window Loads...
+
+Alert prompt for playerAge : 16+ years old
+true: continue to webpage
+false: alert() Hopefully they teach you this in school. 
+
+Pre Trivia...
+
+Title - 
+
+Rules - 
+
+
+Question Total - 
+
+
+Timer - 
+
+
+
+Trivia Status Bar - div#current-progress
+    div.statusBar
+        #current-progress
+            .progress-bar
+                aria-valuenow="0" 
+                aria-valuemin="0" 
+                aria-valuemax="100"
+
+    div#questions-rem
+        span#current-question-rem
+
+    div#time-rem
+        span#current-time-rem
+
+        
+
+Push to Start - button
+
+
+10 Questions :
+    Question Number
+    Space for Text & Answer
+
+
+
+
+
+Questions 1 - 10
+q1-text 
+q1-rightAnswer
+q1-wrongAnswer
+a1-facts 
+a1-crap
+a1-userInput
+
+q2-text 
+q2-rightAnswer
+q2-wrongAnswer
+a2-facts 
+a2-crap
+a2-userInput
+
+q3-text 
+q3-rightAnswer
+q3-wrongAnswer
+a3-facts 
+a3-crap
+a3-userInput
+
+q4-text 
+q4-rightAnswer
+q4-wrongAnswer
+a4-facts 
+a4-crap
+a4-userInput
+
+q5-text 
+q5-rightAnswer
+q5-wrongAnswer
+a5-facts 
+a5-crap
+a5-userInput
+
+q6-text 
+q6-rightAnswer
+q6-wrongAnswer
+a6-facts 
+a6-crap
+a6-userInput
+
+q7-text 
+q7-rightAnswer
+q7-wrongAnswer
+a7-facts 
+a7-crap
+a7-userInput
+
+q8-text 
+q8-rightAnswer
+q8-wrongAnswer
+a8-facts 
+a8-crap
+a8-userInput
+
+q9-text 
+q9-rightAnswer
+q9-wrongAnswer
+a9-facts 
+a9-crap
+a9-userInput
+
+q10-text 
+q10-rightAnswer
+q10-wrongAnswer
+a10-facts 
+a10-crap
+a10-userInput
+
+
+
+Questions for Trivia
+
+
+True or False:  
+FACTS or CRAP
+FACTS / BULLSHIT
+
+q1.  
+When using latex condoms, ALWAYS use oil-based lube or you run the risk of condom breakage!
+
+a1. 
+FALSE : 
+ALWAYS use water-based or silicone-based lube with latex condoms.
+NEVER use an oil-based lube with latex condoms or you run the risk of condom breakage!
+(this includes, baby oil, coconut oil, etc.)
+
+
+
+q2.
+for better protected, heterosexual couples can use BOTH male and female condoms during sex.
+
+a2.
+FALSE :
+DON’T use a female condom and a male (conventional) condom at the same time.
+The condoms may stick to each other, causing them to slip off.
+If you have a choice, USE A MALE CONDOM for better protection.
+
+
+
+q3.
+You can get STIs and STDs from...
+
+a3.
+
+
+
+
+q4.
+
+a4.
+
+
+
+
+q5.
+
+a5.
+
+
+
+
+q6.
+
+a6
+
+
+
+
+q7.
+
+a7.
+
+
+
+
+q8.
+
+a8.
+
+
+
+
+q9.
+
+a9.
+
+
+
+
+q10.
+
+a10.
+
