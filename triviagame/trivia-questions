@@ -40,20 +40,25 @@ Push to Start - button
 
 
 10 Questions :
-    Question Number
+    div#current-questionNumber
+
+
     Space for Text & Answer
 
 
-
+User answers questions
+questions compared against right answers
+user is shown the questions they answered correct / incorrect compared to the key
 
 
 Questions 1 - 10
-q1-text 
-q1-rightAnswer
-q1-wrongAnswer
-a1-facts 
-a1-crap
-a1-userInput
+ {
+  q1: text:
+  rightAnswer: 1
+  answers: ["an-1", "an-2"]
+  factsText: facts + answers[1] 
+  crapText:  "Thats Crap dude" 
+ }
 
 q2-text 
 q2-rightAnswer
@@ -118,6 +123,16 @@ a10-facts
 a10-crap
 a10-userInput
 
+// USER ANSWER ARRAY //
+
+
+
+function currentPlayer(a1, a2, a3, a4, a5, a6, a7, a8, a9, a10) {
+    this.a1 = a1;
+    this.a2 = a2;
+    this.
+}
+
 
 
 Questions for Trivia
@@ -129,9 +144,10 @@ FACTS / BULLSHIT
 
 q1.  
 When using latex condoms, ALWAYS use oil-based lube or you run the risk of condom breakage!
-
+Vaseline is safe to use with latex condoms.
 a1. 
-FALSE : 
+FALSE :
+Only water based lubricants should be used on latex condoms.
 ALWAYS use water-based or silicone-based lube with latex condoms.
 NEVER use an oil-based lube with latex condoms or you run the risk of condom breakage!
 (this includes, baby oil, coconut oil, etc.)
@@ -150,16 +166,19 @@ If you have a choice, USE A MALE CONDOM for better protection.
 
 
 q3.
-You can get STIs and STDs from...
+HIV attacks the cells of the respiratory system
 
 a3.
-
+False	HIV attacks the cells of the immune system
 
 
 
 q4.
+It is always good to keep a condom in your wallet
 
 a4.
+CRAP
+It is great to take one with you if you plan on having sex but do not keep it there.
 
 
 
